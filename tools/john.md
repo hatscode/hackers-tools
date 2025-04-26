@@ -34,14 +34,23 @@ wsl --install Ubuntu
 sudo apt install john
 ```
 
+- Here we're using debian kali linux
+
+![image](https://github.com/user-attachments/assets/40749611-d5eb-4cd1-895d-60929b5c5208)
+  
+
 ---
 
 ## Basic Usage  
 
 ### 1. Prepare Hashes  
-Save target hashes in a file (e.g., `hashes.txt`). Formats:  
-- **MD5**: `user:5f4dcc3b5aa765d61d8327deb882cf99`  
-- **SHA-256**: `admin:5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8`  
+  - John can crack hashes from /etc/shadow, Windows SAM dumps, ZIPs, RARs, and more.
+  
+  - Step 1: Prepare hashes
+  - Save hashes in a file (hashes.txt). Example (MD5):
+
+![image](https://github.com/user-attachments/assets/d2c8f429-3ee9-4cdf-94a3-9de22c7b85e5)
+
 
 ### 2. Dictionary Attack  
 ```bash
@@ -53,14 +62,16 @@ john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
 john --incremental hashes.txt
 ```
 
+![image](https://github.com/user-attachments/assets/370f6675-01b3-42f9-84b3-723ff2d0a4f7)
+
+
 ### 4. Show Results  
 ```bash
 john --show hashes.txt
 ```
 *Output:*  
 ```
-user1:password123  
-admin:qwerty
+alex:chocolate
 ```
 
 ---
