@@ -1,11 +1,11 @@
 <div align="center">
   <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="200" alt="Hacker GIF">
   
-  [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/yourusername/)
-  <a class="header-badge" target="_blank" href="https://discord.com/users/yourusername">
+  [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/stilla1ex/)
+  <a class="header-badge" target="_blank" href="https://discord.com/users/stilla1ex">
     <img src="https://img.shields.io/badge/Discord-7289DA?style=social&logo=discord&label=Join%20Me">
   </a> 
-  [![Twitter Follow](https://img.shields.io/twitter/follow/yourusername?style=social)](https://twitter.com/yourusername)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/stilla1ex?style=social)](https://twitter.com/stilla1ex)
   
   ⚡ *"Knowledge shared is knowledge squared"* ⚡
 </div>
@@ -67,7 +67,7 @@ admin:qwerty
 
 ## ⚡ Advanced Techniques  
 
-### 🔄 Rules-Based Cracking  
+### Rules-Based Cracking  
 Mangle wordlists for complex variations:  
 ```bash
 john --wordlist=wordlist.txt --rules hashes.txt
@@ -88,4 +88,4 @@ john --format=sha512crypt hashes.txt
 ---
 
 ## ⚠️ Legal & Ethical Warning  
-### **Use responsibly!** Only test systems you own or have explicit permission to audit.  
+### **Use responsibly!** Only test systems you own or have explicit permission to audit.**  
