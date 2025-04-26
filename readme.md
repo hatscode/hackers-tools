@@ -10,12 +10,44 @@
 
 ---
 
-## � What's Inside?
+## 🌐 Pentesting-Path Structure
 
 ```bash
-.
-├── 📝 Blogs/          # My hacking thoughts and learnings
-├── 🛠️ Projects/      # Cool security tools I've built
-├── 📓 Writeups/      # CTF and vuln explanations
-├── 🛣️ Pathway/       # My learning roadmap
-└── 🎯 Challenges/    # Try these yourself!
+Pentesting-Path/
+├── 📜 README.md                 # Project manifesto
+├── 🗺️ mypath.md                 # Personal learning roadmap
+│
+├── 📦 Modules/
+│   ├── 001-Introduction/        # Cybersecurity fundamentals
+│   │   ├── 📝 README.md         # Module overview
+│   │   ├── 📓 notes.md          # Raw knowledge dump
+│   │   └── 📚 resources.md      # Curated learning materials
+│   ├── 002-Network-Pentesting/  # Network exploitation
+│   └── 003-Web-Application/     # Web app security
+│
+├── 🛠️ Tools/
+│   ├── John-The-Ripper/         # Password cracking
+│   │   ├── 🔧 examples/         # Practical usage cases
+│   │   ├── 📜 README.md         # Tool bible
+│   │   └️ 🎯 cheatsheet.md      # Quick command reference
+│   ├── Kali-Linux/              # Pentesting OS configs
+│   └── Metasploit/              # Exploitation framework
+│
+├── 💻 Coding/
+│   ├── Python/                  # Security scripts
+│   └── Bash/                    # Automation magic
+│
+├️── 🧪 Labs/
+│   ├── TryHackMe/               # Guided learning
+│   ├── HackTheBox/              # Challenge machines
+│   └── Vulnhub/                 # Vulnerable VMs
+│
+├── 🏆 Certifications/
+│   ├── OSCP/                    # Offensive Security
+│   └── CEH/                     # Ethical Hacker
+│
+└── 📚 Resources/
+    ├── Books/                   # Infosec literature
+    ├── Courses/                 # Video learning
+    ├── Blogs/                   # Community wisdom
+    └── Cheatsheets/             # Quick references
