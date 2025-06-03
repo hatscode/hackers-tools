@@ -15,7 +15,7 @@
 ```bash
 Pentesting-Path/
 ├── 📜 README.md                 # Project manifesto
-├── 🗺️ mypath.md                 # Personal learning roadmap
+├── 🗺️ roadmap.md                 # Personal learning roadmap
 │
 ├── 📦 Modules/
 │   ├── 001-Introduction/        # Cybersecurity fundamentals
