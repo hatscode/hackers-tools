@@ -1,7 +1,5 @@
 # **Zero to Pentesting Hero: A 3-Month Hands-On Journey**  
-*(June 5 - August 26, 2024)*  
 
----
 
 ## **📅 Phase 1: Foundations (Weeks 1-4)**  
 ### **Week 1 (June 5-11)**  
