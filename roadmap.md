@@ -1,7 +1,3 @@
-Here’s the complete **corrected table** for all 12 weeks with the proper columns (**Day**, **Topic**, **Tasks**, **Resources**):  
-
----
-
 # **Zero to Pentesting Hero: A 3-Month Hands-On Journey**  
 *(June 5 - August 26, 2024)*  
 
