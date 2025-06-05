@@ -1,6 +1,5 @@
 # **Zero to Pentesting Hero: A 3-Month Hands-On Journey**  
 
-
 ## **📅 Phase 1: Foundations (Weeks 1-4)**  
 ### **Week 1 (June 5-11)**  
 | **Day** | **Topic**            | **Tasks**                          | **Resources**                                                                 |
@@ -12,6 +11,8 @@
 | 7       | Security Fundamentals| Review OWASP Top 10               | [OWASP Top 10](https://owasp.org/www-project-top-ten/)                       |
 |         |                      | Complete Pre-Security path        | [TryHackMe Pre-Security](https://tryhackme.com/path/outline/presecurity)     |
 
+---
+
 ### **Week 2 (June 12-18)**  
 | **Day** | **Topic**            | **Tasks**                          | **Resources**                                                                 |
 |---------|----------------------|------------------------------------|------------------------------------------------------------------------------|
@@ -20,6 +21,8 @@
 | 11-14   | Kali Setup           | Install Kali Linux                | [Kali Installation Guide](https://www.kali.org/docs/installation/)           |
 |         |                      | Explore Kali tools                | [Kali Tools List](https://www.kali.org/tools/)                               |
 
+---
+
 ### **Week 3 (June 19-25)**  
 | **Day** | **Topic**            | **Tasks**                          | **Resources**                                                                 |
 |---------|----------------------|------------------------------------|------------------------------------------------------------------------------|
@@ -27,6 +30,8 @@
 |         |                      | Practice service detection        | [HackTricks Nmap Guide](https://book.hacktricks.xyz/network-services-pentesting/nmap) |
 | 19-21   | Web App Basics       | Complete PortSwigger Labs         | [PortSwigger Labs](https://portswigger.net/web-security)                     |
 |         |                      | Learn Burp Suite                  | [Burp Suite Tutorial](https://www.youtube.com/watch?v=G3hpAeoZ4ek)           |
+
+---
 
 ### **Week 4 (June 26 - July 2)**  
 | **Day** | **Topic**            | **Tasks**                          | **Resources**                                                                 |
@@ -47,6 +52,8 @@
 | 33-35   | Metasploitable 2     | Exploit Metasploitable VM          | [Metasploitable Guide](https://metasploit.help.rapid7.com/docs/metasploitable-2) |
 |         |                      | Search Exploit-DB for vulns        | [Exploit Database](https://www.exploit-db.com/)                              |
 
+---
+
 ### **Week 6 (July 10-16)**  
 | **Day** | **Topic**            | **Tasks**                          | **Resources**                                                                 |
 |---------|----------------------|------------------------------------|------------------------------------------------------------------------------|
@@ -55,6 +62,8 @@
 | 40-42   | HTB Machines         | Complete HTB Starting Point        | [HTB Starting Point](https://www.hackthebox.com/starting-point)              |
 |         |                      | Follow TJ_Null’s list              | [TJ_Null’s HTB List](https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=0) |
 
+---
+
 ### **Week 7 (July 17-23)**  
 | **Day** | **Topic**            | **Tasks**                          | **Resources**                                                                 |
 |---------|----------------------|------------------------------------|------------------------------------------------------------------------------|
@@ -62,6 +71,8 @@
 |         |                      | Practice with Impacket             | [Impacket Cheat Sheet](https://www.secureauth.com/labs/open-source-tools/impacket) |
 | 47-49   | BloodHound           | Map AD environments                | [BloodHound Docs](https://bloodhound.readthedocs.io/)                        |
 |         |                      | Simulate attacks                   | [AD Attack Simulation](https://github.com/BloodHoundAD/BloodHound)           |
+
+---
 
 ### **Week 8 (July 24-30)**  
 | **Day** | **Topic**            | **Tasks**                          | **Resources**                                                                 |
@@ -82,6 +93,8 @@
 | 61-63   | Python Scripting     | Write pentesting scripts           | [Python for Pentesters](https://github.com/dloss/python-pentest-tools)       |
 |         |                      | Study Black Hat Python             | [Black Hat Python (Book)](https://nostarch.com/blackhatpython)               |
 
+---
+
 ### **Week 10 (August 7-13)**  
 | **Day** | **Topic**            | **Tasks**                          | **Resources**                                                                 |
 |---------|----------------------|------------------------------------|------------------------------------------------------------------------------|
@@ -90,6 +103,8 @@
 | 68-70   | HTB/VulnHub         | Root medium-difficulty machines    | [Medium HTB Machines](https://www.hackthebox.com/home/machines/rating/4)    |
 |         |                      | Practice VulnHub Medium            | [VulnHub Medium](https://www.vulnhub.com/?q=medium&sort=date)               |
 
+---
+
 ### **Week 11 (August 14-20)**
 | **Day** | **Topic**            | **Tasks**                          | **Resources**                                                                 |
 |---------|----------------------|------------------------------------|------------------------------------------------------------------------------|
@@ -97,6 +112,8 @@
 |         |                      | Study bug bounty tactics           | [Bug Bounty Playbook](https://github.com/arkadiyt/bounty-targets-data)       |
 | 75-77   | Report Writing       | Review sample reports              | [Sample Pentest Report](https://www.offensive-security.com/reports/sample-penetration-testing-report.pdf) |
 |         |                      | Use reporting templates            | [Vuln Reporting Template](https://github.com/devanshbatham/Awesome-Bugbounty-Writeups) |
+
+---
 
 ### **Week 12 (August 21-26)**  
 | **Day** | **Topic**            | **Tasks**                          | **Resources**                                                                 |
