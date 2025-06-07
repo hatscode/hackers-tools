@@ -336,7 +336,7 @@ Output:
 data.txt
 ```
 
-Find the unique line in the file:**
+**Find the unique line in the file:**
    - First, sort the file contents (required for `uniq` to work properly)
    - Then use `uniq -u` to display only lines that appear exactly once
 
@@ -352,5 +352,65 @@ sort data.txt | uniq -u
 
 ![image](https://github.com/user-attachments/assets/aed6b547-960b-4af7-b562-74e4cbb076cd)
 
-**Now it’s your turn—find the password yourself!**
+***Now it’s your turn—find the password yourself!*** [Piping and Redirection](https://ryanstutorials.net/linuxtutorial/piping.php)
+
+---
+
+## Bandit Level 9 → Level 10
+
+**Level Goal**
+The password for the next level is stored in the file data.txt in one of the few human-readable strings, preceded by several '=' characters.
+
+**Commands you may need to solve this level**
+```bash
+grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+```
+
+### Solution
+
+**List the contents of the home directory:**
+```bash
+ls
+```
+Output:
+```
+data.txt
+```
+
+**Extract human-readable strings from the file:**
+ ```bash
+ strings data.txt
+ ```
+(This command displays all printable character sequences in the file)
+
+**Filter for lines containing multiple '=' characters:**
+```bash
+strings data.txt | grep -E "={5,}"
+```
+   - `-E` enables extended regular expressions
+   - `={5,}` matches 5 or more consecutive '=' characters
+   - This reveals the password line among other false positives
+
+Output:
+```
+   ========== the
+   ========== password{k
+   =========== is
+   ========== xxxxxxxxxxxxxxxxxxxxxx
+```
+
+**Identify the password!**
+
+### Additional Notes
+- The file contains mostly binary data, so normal `cat` or `less` won't work well
+- Alternative approach:
+  ```bash
+  strings data.txt | grep -E "^={5,}\s\w+"
+  ```
+  This looks for equals signs at the start of line followed by whitespace and word characters
+- The password format is consistent with previous levels (32 random alphanumeric characters)
+
+![image](https://github.com/user-attachments/assets/bcc2b2af-2d21-42c2-986d-06dc65367d8e)
+
+
 ---
