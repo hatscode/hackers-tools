@@ -2,9 +2,9 @@
 
 ## **📅 Phase 1: Foundations (Weeks 1-4)**  
 ### **Week 1 (June 5-11)**  
-| **Day** | **Topic**            | **Tasks**                          | **Resources**                                                                 |
-|---------|----------------------|------------------------------------|------------------------------------------------------------------------------|
-| 1-3     | Networking Basics    | Study protocols, Nmap basics      | [NetworkChuck's Course](https://youtu.be/qiQR5rTSshw)                       |
+| **Day** | **Topic**            | **Tasks**                          | **Resources**                                                                 |  Done     |
+|---------|----------------------|------------------------------------|------------------------------------------------------------------------------|------------------|
+| 1-3     | Networking Basics    | Study protocols, Nmap basics      | [NetworkChuck's Course](https://youtu.be/qiQR5rTSshw)                       |           ✅
 |         |                      | Practice scanning                 | [Nmap Cheat Sheet](https://www.stationx.net/nmap-cheat-sheet/)               |
 | 4-6     | Linux & Bash         | Complete Bandit Wargame           | [OverTheWire Bandit](https://overthewire.org/wargames/bandit/)               |
 |         |                      | Learn Linux commands              | [Linux Command Guide](https://linuxjourney.com/)                             |
