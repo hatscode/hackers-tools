@@ -2,36 +2,6 @@
 
 ## Overview
 The Certified Ethical Hacker (CEH) credential is a globally respected certification for cybersecurity professionals. This guide outlines the exam structure, key topics, and effective preparation strategies.
-## Exam Details
-- **Exam Title:** Certified Ethical Hacker (CEH)
-- **Exam Code:** 312-50 (ANSI), 312-50 (VUE)
-- **Exam Duration:** 4 hours
-- **Number of Questions:** 125
-- **Question Format:** Multiple Choice
-- **Passing Score:** Varies (typically around 60-85%)
-- **Exam Cost:** Varies by region and training provider
-
-## Exam Topics
-1. **Introduction to Ethical Hacking**
-2. **Footprinting and Reconnaissance**
-3. **Scanning Networks**
-4. **Enumeration**
-5. **Vulnerability Analysis**
-6. **System Hacking**
-7. **Malware Threats**
-8. **Sniffing**
-9. **Social Engineering**
-10. **Denial of Service**
-11. **Session Hijacking**
-12. **Evading IDS, Firewalls, and Honeypots**
-13. **Hacking Web Servers**
-14. **Hacking Web Applications**
-15. **SQL Injection**
-16. **Hacking Wireless Networks**
-17. **Hacking Mobile Platforms**
-18. **IoT Hacking**
-19. **Cloud Computing**
-20. **Cryptography**
 
 ## Preparation Tips
 - **Study Material:** Use official EC-Council study guides and materials.
