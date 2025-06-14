@@ -165,8 +165,6 @@ cat ./-file07
 
 **Now it's your turn — follow the steps to uncover the password yourself!**
 
-Here’s the writeup for **Bandit Level 5 → Level 6** in the requested format:
-
 ---
 
 ## Bandit Level 5 → Level 6  
@@ -412,5 +410,90 @@ Output:
 
 ![image](https://github.com/user-attachments/assets/bcc2b2af-2d21-42c2-986d-06dc65367d8e)
 
+
+---
+
+## Bandit Level 10 → Level 11
+
+**Level Goal**
+The password for the next level is stored in the file data.txt, which contains base64 encoded data.
+
+**Commands you may need to solve this level**
+```bash
+grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+```
+
+### Solution
+
+**List the contents of the home directory:**
+```bash
+ls
+```
+Output:
+```
+data.txt
+```
+
+**Decode the base64 encoded file:**
+```bash
+base64 -d data.txt
+```
+   - `-d` flag decodes the input
+   - The command reveals the password in plaintext
+
+Alternative approach using pipe:
+```bash
+cat data.txt | base64 -d
+```
+
+Output:
+```
+The password is xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+**Identify the password!**
+
+![image](https://github.com/user-attachments/assets/a4ade22f-49e4-42a7-ba7e-aaf909a7f93d)
+
+---
+
+## Bandit Level 11 → Level 12
+
+**Level Goal**
+The password for the next level is stored in the file `data.txt`, where all lowercase (a-z) and uppercase (A-Z) letters have been rotated by 13 positions (ROT13).
+
+**Commands you may need to solve this level**
+```bash
+grep, sort, uniq, strings, base64, tr, tar, gzip, bzip2, xxd
+```
+
+### Solution
+
+List the contents of the home directory:**
+```bash
+ls
+```
+Output:
+```
+data.txt
+```
+
+View the encoded password:**
+```bash
+cat data.txt
+```
+Sample output (encoded):
+```
+Gur cnffjbeq vf 7k16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+```
+
+Decode the ROT13 cipher using `tr` command:**
+```bash
+cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+```
+
+**Identify the password!**
+
+![image](https://github.com/user-attachments/assets/207f96be-8d86-4122-a662-020abd094a09)
 
 ---
