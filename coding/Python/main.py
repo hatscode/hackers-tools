@@ -1,13 +1,21 @@
 #!/bin/python3
+# -*- coding: utf-8 -*-
 
-def sum(number_one, number_two):
-    number_one_int = convert_integer(number_one)
-    number_two_int = convert_integer(number_two)
-    return number_one_int + number_two_int
+"""Main entry point for the Python application."""
 
-def convert_integer(number_string):
-    return int(number_string)
+def main():
 
-answer = sum('1', '2')
-print(answer)  # Output: 3
+    first_number = 10
+    second_number = 20  
+    total = first_number + second_number
+    return total
 
+def run():
+    """Run the main function and print the result."""
+    result = main()
+    print(f"The sum of the numbers is: {result}")
+
+if __name__ == "__main__":
+    run()
+# This code defines a simple Python application that calculates the sum of two numbers.
+# The main function performs the addition, and the run function prints the result.
