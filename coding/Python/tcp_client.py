@@ -1,23 +1,19 @@
 #!/bin/python3
 
-# A simple TCP client that connects to a server, sends a message, and receives a response.
-import socket   
+import socket
 
-def tcp_client():
-    """Create a TCP client that connects to a server, sends a message, and receives a response."""
-    
-    # Define the server address and port
-    server_address = ('localhost', 65432)
-    
-    # Create a TCP/IP socket
-    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
-        # Connect to the server
-        sock.connect(server_address)
-        
-        # Send data
-        message = 'Hello, Server!'
-        sock.sendall(message.encode())
-        
-        # Receive response
-        response = sock.recv(1024)
-        print(f'Received: {response.decode()}')
+target_host = 'google.com'
+target_port = 80
+
+#create the socket object
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# connect the client to the target host and port
+client.connect((target_host, target_port))
+
+# send some data
+client.send("GET / HTTP/1.1\r\nHost: google.com\r\n\r\n".encode())
+
+responce = client.recv(4096)
+
+print(responce)
