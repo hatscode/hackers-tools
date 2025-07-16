@@ -1,0 +1,1 @@
+fr Key.backspace or Key.space real Key.shift ? Key.ctrl c Key.ctrl c
