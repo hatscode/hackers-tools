@@ -2,9 +2,15 @@
 
 # Cybersecurity Lab Writeups & Blogs
 
-This folder contains writeups and blogs about cybersecurity labs and challenges. Find solutions, walkthroughs, and tips to help you learn and improve your skills.
+Welcome to the Cybersecurity Lab!  
+This folder contains simple writeups and blogs to help you learn cybersecurity concepts and solve challenges.
 
-- [OverTheWire Bandit wargames](https://github.com/stilla1ex/cybersecurity-lab/tree/main/Modules/overthewire) – Practice wargames and learn security concepts.
-- [SSH on Hack The Box](https://github.com/stilla1ex/cybersecurity-lab/blob/main/Modules/HTB/001%3AGetting%20started/001%3Asshtokali.md) – Explore virtual labs and test your hacking skills.
+Explore:
 
+- [OverTheWire Bandit wargames](https://github.com/stilla1ex/cybersecurity-lab/tree/main/Modules/overthewire)  
+    Practice Linux basics and command-line skills.
+- [SSH on Hack The Box](https://github.com/stilla1ex/cybersecurity-lab/blob/main/Modules/HTB/001%3AGetting%20started/001%3Asshtokali.md)  
+    Learn how to connect to Hack The Box machines using SSH.
+
+Useful for beginners and anyone interested in cybersecurity!
 
