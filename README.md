@@ -1,16 +1,4 @@
-<div align="center">
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="200" alt="Hacker GIF">
-  
-  [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/stilla1ex/)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20with%20me-blue?style=flat&logo=linkedin)](https://linkedin.com/in/stilla1ex)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/Iam4lex?style=social)](https://twitter.com/stilla1ex)
-  
-  ⚡ *"Knowledge shared is knowledge squared"* ⚡
-</div>
-
----
-
-Welcome to my **pentesting playground**! This repo contains **real-world penetration testing writeups**, **CTF walkthroughs**, and **curated learning resources** to help you level up your cybersecurity skills.  
+**Welcome to my **pentesting playground**! This repo contains **real-world penetration testing writeups**, **CTF walkthroughs**, and **curated learning resources** to help you level up your cybersecurity skills.**
 
 Whether you're a beginner or an experienced hacker, you'll find practical guides, cheat sheets, and hands-on labs here.  
 
