@@ -3,7 +3,7 @@
 # Cybersecurity Lab Writeups & Blogs
 
 Welcome to the Cybersecurity Lab!  
-This folder provides simple writeups and blogs to help you learn cybersecurity concepts and solve practical challenges.
+This folder contains links to simple writeups and blogs to help you learn cybersecurity concepts and solve practical challenges.
 
 Explore:
 
