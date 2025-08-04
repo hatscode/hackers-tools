@@ -1,4 +1,10 @@
-<div align="center">
+# HTB Getting Started - SSH Connection Guide
+
+*Learn how to connect to Hack The Box labs via SSH*
+
+---
+
+Hack The Box (HTB) is a popular platform for cybersecurity enthusiasts to practice penetration testing and ethical hacking. In this guide, we'll walk through the process of connecting your HTB account to Kali Linux to start solving challenges.lign="center">
 <h2>How to ssh</h2>
 </div>
 
@@ -102,8 +108,4 @@ You are now connected to Hack The Box via Kali Linux! You can start exploring ac
 
 ---
 
-**Author**: Iam4lex  
-**Connect with me**:  
-- [X (Twitter)](https://x.com/stilla1ex)  
-
-Let me know if there are any corrections or mistakes.
+*For questions or feedback about this module, please refer to the main repository documentation.*
