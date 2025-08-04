@@ -1,4 +1,4 @@
-## **Web Application Hacking**
+## Web Application Hacking
 - **Burp Suite** - [https://portswigger.net/burp](https://portswigger.net/burp)  
 - **OWASP ZAP** - [https://www.zaproxy.org](https://www.zaproxy.org)  
 - **WPScan** - [https://wpscan.com](https://wpscan.com) *(WordPress vulns)*  

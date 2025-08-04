@@ -65,12 +65,12 @@ BANNER = """
 
 class CheckStatus(Enum):
     """Enumeration for check status results"""
-    AVAILABLE = "✅ Available"
-    TAKEN = "❌ Taken"
-    ERROR = "⚠️ Error"
-    UNKNOWN = "❔ Unknown"
-    RESTRICTED = "⛔ Restricted"
-    RATE_LIMITED = "🔒 Rate Limited"
+    AVAILABLE = "AVAILABLE"
+    TAKEN = "TAKEN"
+    ERROR = "ERROR"
+    UNKNOWN = "UNKNOWN"
+    RESTRICTED = "RESTRICTED"
+    RATE_LIMITED = "RATE_LIMITED"
 
 class PlatformCategory(Enum):
     """Categories for different platform types"""
@@ -661,9 +661,9 @@ class UsernameChecker:
         errors = len(self.results) - available - taken
         
         summary_table.add_row("Platforms Checked", str(len(self.results)))
-        summary_table.add_row("✅ Available", str(available))
-        summary_table.add_row("❌ Taken", str(taken))
-        summary_table.add_row("⚠️ Errors", str(errors))
+        summary_table.add_row("Available", str(available))
+        summary_table.add_row("Taken", str(taken))
+        summary_table.add_row("Errors", str(errors))
         summary_table.add_row("Duration", f"{duration:.2f} seconds")
         
         # Display all tables
@@ -775,9 +775,9 @@ class UsernameChecker:
         table.add_column("Username", style="green")
         table.add_column("Date", style="blue")
         table.add_column("Platforms", style="magenta")
-        table.add_column("✅", style="green")
-        table.add_column("❌", style="red")
-        table.add_column("⚠️", style="yellow")
+        table.add_column("Available", style="green")
+        table.add_column("Taken", style="red")
+        table.add_column("Errors", style="yellow")
         
         for entry in history:
             table.add_row(

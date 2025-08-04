@@ -1,4 +1,4 @@
-## **Password Attacks tools**
+## Password Attacks tools
 
 * **Hashcat** - [https://hashcat.net/hashcat](https://hashcat.net/hashcat)
 * **John the Ripper** - [https://www.openwall.com/john](https://www.openwall.com/john)

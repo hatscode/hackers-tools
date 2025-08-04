@@ -7,7 +7,7 @@
   </a> 
   [![Twitter Follow](https://img.shields.io/twitter/follow/stilla1ex?style=social)](https://twitter.com/stilla1ex)
   
-  ⚡ *"Knowledge shared is knowledge squared"* ⚡
+  *"Knowledge shared is knowledge squared"*
 </div>
 
 ---
@@ -76,7 +76,7 @@ alex:chocolate
 
 ---
 
-## ⚡ Advanced Techniques  
+## Advanced Techniques
 
 ### Rules-Based Cracking  
 Mangle wordlists for complex variations:  
@@ -98,5 +98,5 @@ john --format=sha512crypt hashes.txt
 
 ---
 
-## ⚠️ Legal & Ethical Warning  
+## Legal & Ethical Warning
 ### **Use responsibly!** Only test systems you own or have explicit permission to audit.**  
