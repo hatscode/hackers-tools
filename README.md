@@ -1,20 +1,8 @@
 # Cybersecurity Learning Lab
 
-**Welcome to my pentesting playground!** This repository contains **real-world penetration testing writeups**, **CTF walkthroughs**, and **curated learning resources** to help you level up your cybersecurity skills.
+**Welcome to my pentesting playground!** This repository contains **real-world penetration testing writeups**, **CTF walkthroughs**, and **curated learning resources** to help you and me level up our cybersecurity skills.
 
 Whether you're a beginner or an experienced hacker, you'll find practical guides, cheat sheets, and hands-on labs here.
-
-## 🚀 **Quick Start**
-
-**New to cybersecurity?** Follow our [**Structured Learning Path**](LEARNING_PATH.md) for a guided progression through all materials.
-
-## IMPORTANT LEGAL DISCLAIMER
-This repository is for **educational purposes only**. All tools and techniques are intended for:
-- Learning cybersecurity concepts
-- Authorized testing on your own systems
-- Ethical hacking with proper permissions
-
-**Unauthorized use of these tools is illegal.** Always obtain explicit permission before testing on systems you don't own.
 
 ## What's Inside
 
@@ -46,23 +34,6 @@ I use **Kali Linux** with these favorite tools:
 - **Exploitation:** `Metasploit`, `sqlmap`, `John the Ripper`
 - **Post-Exploitation:** `LinPEAS`, `WinPEAS`, `Mimikatz`
 
-## Learning Path
-
-### For Beginners:
-1. Start with [OverTheWire Bandit](./Modules/overthewire/)
-2. Learn [Basic Linux Commands](./Modules/HTB/002:Linux/)
-3. Practice with [HTB Getting Started](./Modules/HTB/001:Getting%20started/)
-
-### Intermediate:
-1. [Network Enumeration](./Tools/Reconnaissance%20&%20OSINT/)
-2. [Web Application Testing](./Tools/Web%20Application%20Hacking/)
-3. [Password Attacks](./Tools/Password%20Attacks/)
-
-### Advanced:
-1. [Privilege Escalation](./Tools/Privilege%20Escalation/)
-2. [Post-Exploitation](./Tools/Exploitation%20&%20Post-Exploitation/)
-3. [Custom Tool Development](./Coding/)
-
 ## Repository Statistics
 - **200+ Security Tools** categorized and documented
 - **50+ Writeups** from various platforms
@@ -82,8 +53,6 @@ Found a mistake? Have a better method? **Contributions welcome!**
 Want to discuss hacking techniques or share knowledge?
 
 - **Twitter:** [@stilla1ex](https://twitter.com/stilla1ex)
-- **LinkedIn:** [stilla1ex](https://linkedin.com/in/stilla1ex)
-- **Email:** Contact through GitHub
 
 ## Legal & Ethical Considerations
 
