@@ -1,34 +1,13 @@
-# 🔐 Hackers Tools Collection
+# Hackers Tools Collection
 
 A comprehensive collection of ethical hacking tools, penetration testing utilities, and cybersecurity resources organized by category.
 
-## ⚠️ DISCLAIMER
+## DISCLAIMER
 
 This repository is for **EDUCATIONAL PURPOSES ONLY**. These tools should only be used on systems you own or have explicit permission to test. Unauthorized use of these tools on systems you don't own is illegal and unethical. The author is not responsible for any misuse of the information provided.
 
-## 📚 Table of Contents
 
-- [Reconnaissance](#reconnaissance)
-- [Scanning](#scanning)
-- [Enumeration](#enumeration)
-- [Exploitation](#exploitation)
-- [Web Application Testing](#web-application-testing)
-- [Post-Exploitation](#post-exploitation)
-- [Wireless Security](#wireless-security)
-- [Password Attacks](#password-attacks)
-- [Forensics](#forensics)
-- [Reverse Engineering](#reverse-engineering)
-- [Cryptography](#cryptography)
-- [Social Engineering](#social-engineering)
-- [Mobile Security](#mobile-security)
-- [Evasion Techniques](#evasion-techniques)
-- [Malware Analysis](#malware-analysis)
-- [Network Tools](#network-tools)
-- [Cloud Security](#cloud-security)
-- [Utilities](#utilities)
-- [Resources](#resources)
-
-## 🔍 Reconnaissance
+## Reconnaissance Tools
 
 Information gathering and reconnaissance tools for the initial phase of penetration testing.
 
@@ -41,14 +20,14 @@ Information gathering and reconnaissance tools for the initial phase of penetrat
 - **Network Discovery**: Finding live hosts and services
 - **Port Scanning**: Identifying open ports and services
 
-## 🔎 Scanning
+## Scanning
 
 Network and vulnerability scanning tools.
 
 ### Network Scanners
-- **Nmap**: Network discovery and security auditing
+- **Nmap**: Network discovery and security auditing tool
 - **Masscan**: High-speed port scanner
-- **Zmap**: Internet-wide network scanner
+- **Zmap**: Internet-wide network scanner tool
 
 ### Vulnerability Scanners
 - **OpenVAS**: Comprehensive vulnerability assessment
@@ -60,7 +39,7 @@ Network and vulnerability scanning tools.
 - **Dirb/Gobuster**: Directory and file enumeration
 - **Wapiti**: Web application vulnerability scanner
 
-## 📊 Enumeration
+## Enumeration Tools
 
 Service enumeration and information extraction tools.
 
@@ -71,7 +50,7 @@ Service enumeration and information extraction tools.
 - **NFS**: Network File System
 - **Database**: Various database enumeration tools
 
-## 💥 Exploitation
+## Exploitation Tools
 
 Tools for exploiting vulnerabilities and gaining access.
 
@@ -85,7 +64,7 @@ Tools for exploiting vulnerabilities and gaining access.
 - **Shellcode Generators**: Custom shellcode creation
 - **Exploit Development**: Buffer overflow exploitation tools
 
-## 🌐 Web Application Testing
+## Web Application Testing Tools
 
 Web application security testing tools.
 
@@ -109,7 +88,7 @@ Web application security testing tools.
 - **OWASP ZAP**: Web application security scanner
 - **Mitmproxy**: Interactive HTTPS proxy
 
-## 🚀 Post-Exploitation
+## Post-Exploitation Tools
 
 Tools for maintaining access and moving laterally through networks.
 
@@ -128,7 +107,7 @@ Tools for maintaining access and moving laterally through networks.
 - **WMI**: Windows Management Instrumentation
 - **SSH tunneling**: Secure tunneling techniques
 
-## 📡 Wireless Security
+## Wireless Security
 
 Wireless network security assessment tools.
 
@@ -147,7 +126,7 @@ Wireless network security assessment tools.
 - **LibNFC**: Near Field Communication library
 - **MFCUK**: Mifare Classic Universal toolkit
 
-## 🔐 Password Attacks
+## Password Attacks
 
 Password cracking and brute force tools.
 
@@ -166,7 +145,7 @@ Password cracking and brute force tools.
 - **RockYou**: Popular password wordlist
 - **Custom wordlists**: Domain-specific wordlists
 
-## 🕵️ Forensics
+## Forensics Tools
 
 Digital forensics and incident response tools.
 
@@ -185,7 +164,7 @@ Digital forensics and incident response tools.
 - **NetworkMiner**: Network forensic analysis tool
 - **Tcpdump**: Command-line packet analyzer
 
-## 🔬 Reverse Engineering
+## Reverse Engineering
 
 Binary analysis and reverse engineering tools.
 
@@ -204,7 +183,7 @@ Binary analysis and reverse engineering tools.
 - **Bless**: Full-featured hexadecimal editor
 - **Hexedit**: Simple hex editor for Linux
 
-## 🔒 Cryptography
+## Cryptography Tools
 
 Cryptographic tools and utilities.
 
@@ -223,7 +202,7 @@ Cryptographic tools and utilities.
 - **testssl.sh**: SSL/TLS tester
 - **SSLScan**: SSL cipher suite scanner
 
-## 🎭 Social Engineering
+## Social Engineering Tools
 
 Social engineering attack tools and frameworks.
 
@@ -237,7 +216,7 @@ Social engineering attack tools and frameworks.
 - **Dnsmasq**: Lightweight DHCP/DNS server
 - **Captive portals**: Fake login page generators
 
-## 📱 Mobile Security
+## Mobile Security
 
 Mobile application and device security testing.
 
@@ -251,7 +230,7 @@ Mobile application and device security testing.
 - **Clutch**: iOS application decrypter
 - **iProxy**: iOS SSH tunnel
 
-## 👻 Evasion Techniques
+## Evasion Techniques
 
 Anti-detection and evasion tools.
 
@@ -265,7 +244,7 @@ Anti-detection and evasion tools.
 - **Packet fragmentation**: Bypassing packet filters
 - **Protocol tunneling**: Hiding traffic in legitimate protocols
 
-## 🦠 Malware Analysis
+## Malware Analysis Tools
 
 Malware research and analysis tools.
 
@@ -279,7 +258,7 @@ Malware research and analysis tools.
 - **REMnux**: Malware analysis toolkit
 - **YARA**: Pattern matching engine
 
-## 🌐 Network Tools
+## Network Tools
 
 Network manipulation and analysis utilities.
 
@@ -298,7 +277,7 @@ Network manipulation and analysis utilities.
 - **MITMf**: Man-in-the-middle framework
 - **SSLstrip**: SSL stripping proxy
 
-## ☁️ Cloud Security
+## Cloud Security Tools
 
 Cloud platform security assessment tools.
 
@@ -317,7 +296,7 @@ Cloud platform security assessment tools.
 - **Clair**: Container vulnerability scanner
 - **Anchore**: Container image inspection
 
-## 🛠️ Utilities
+## Utilities
 
 General-purpose utilities and helper tools.
 
@@ -331,7 +310,7 @@ General-purpose utilities and helper tools.
 - **Automation frameworks**: Task automation tools
 - **CI/CD integration**: Continuous security testing
 
-## 📚 Resources
+## Resources
 
 Additional resources and reference materials.
 
@@ -350,7 +329,7 @@ Additional resources and reference materials.
 - **Methodologies**: Penetration testing methodologies
 - **Best practices**: Security testing guidelines
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please read the contribution guidelines before submitting pull requests.
 
@@ -359,14 +338,14 @@ Contributions are welcome! Please read the contribution guidelines before submit
 3. Add your tool/resource with proper documentation
 4. Submit a pull request
 
-## 📖 License
+## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/stilla1ex/hackers-tools/blob/main/LICENSE) file for details.
 
-## 📞 Contact
+## Contact
 
 For questions, suggestions, or collaborations, please open an issue on GitHub.
 
 ---
 
-**Remember**: Always use these tools responsibly and only on systems you own or have explicit permission to test. Ethical hacking requires ethical behavior.
+**Remember**: Always use tools responsibly and only on systems you own or have explicit permission to test. Happy hacking!
